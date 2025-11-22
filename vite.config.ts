@@ -7,7 +7,7 @@ const repoName = "portifolio-data";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: `/${repoName}/`, // ✅ important for GitHub Pages
+  base: "/portifolio/", // ✅ important for GitHub Pages
   server: {
     host: "::", // allows LAN access
     port: 8080,

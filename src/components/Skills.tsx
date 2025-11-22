@@ -12,45 +12,88 @@ import {
 const Skills = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+const skills = [
+  {
+    name: "Python",
+    level: 90,
+    icon: Code2,
+    color: "from-blue-500 to-cyan-500",
+  },
+  {
+    name: "SQL",
+    level: 85,
+    icon: Database,
+    color: "from-orange-500 to-red-500",
+  },
+  {
+    name: "Power BI",
+    level: 90,
+    icon: BarChart3,
+    color: "from-yellow-500 to-orange-500",
+  },
+  {
+    name: "Machine Learning",
+    level: 80,
+    icon: Brain,
+    color: "from-purple-500 to-pink-500",
+  },
+  {
+    name: "Excel",
+    level: 90,
+    icon: FileSpreadsheet,
+    color: "from-green-500 to-emerald-500",
+  },
+  {
+    name: "Data Visualization",
+    level: 90,
+    icon: PieChart,
+    color: "from-cyan-500 to-blue-500",
+  },
+  // Additional skills
+  {
+    name: "R Programming",
+    level: 75,
+    icon: Code2,
+    color: "from-indigo-500 to-violet-500",
+  },
+  {
+    name: "ETL & Data Pipelines",
+    level: 80,
+    icon: Database,
+    color: "from-pink-500 to-red-400",
+  },
+  {
+    name: "Statistics",
+    level: 80,
+    icon: BarChart3,
+    color: "from-green-400 to-lime-500",
+  },
+  {
+    name: "Data Cleaning",
+    level: 90,
+    icon: FileSpreadsheet,
+    color: "from-yellow-400 to-orange-400",
+  },
+  {
+    name: "Tableau",
+    level: 80,
+    icon: PieChart,
+    color: "from-blue-400 to-indigo-500",
+  },
+  {
+    name: "Big Data / Spark",
+    level: 70,
+    icon: Code2,
+    color: "from-red-400 to-orange-500",
+  },
+  {
+    name: "Business Analytics",
+    level: 90,
+    icon: BarChart3,
+    color: "from-teal-400 to-cyan-500",
+  },
+];
 
-  const skills = [
-    {
-      name: "Python",
-      level: 90,
-      icon: Code2,
-      color: "from-blue-500 to-cyan-500",
-    },
-    {
-      name: "SQL",
-      level: 85,
-      icon: Database,
-      color: "from-orange-500 to-red-500",
-    },
-    {
-      name: "Power BI",
-      level: 88,
-      icon: BarChart3,
-      color: "from-yellow-500 to-orange-500",
-    },
-    {
-      name: "Machine Learning",
-      level: 80,
-      icon: Brain,
-      color: "from-purple-500 to-pink-500",
-    },
-    {
-      name: "Excel",
-      level: 85,
-      icon: FileSpreadsheet,
-      color: "from-green-500 to-emerald-500",
-    },
-    {
-      name: "Data Visualization",
-      level: 87,
-      icon: PieChart,
-      color: "from-cyan-500 to-blue-500",
-    },
-  ];
 
   return (
     <section id="skills" className="py-20 relative">

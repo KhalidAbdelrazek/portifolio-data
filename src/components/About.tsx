@@ -28,11 +28,7 @@ const About = () => {
               transition={{ delay: 0.2, duration: 0.6 }}
               className="text-lg text-foreground/90 leading-relaxed"
             >
-              Data Analyst with 1+ years of experience turning raw data into
-              actionable insights. Completed 7+ real-world projects in data
-              analysis and machine learning. Skilled in Python, SQL, Power BI,
-              and data storytelling. Currently leading an 8-member team on a
-              Multi-Functional Healthcare Robot.
+              I am a Data Analyst with over a year of experience transforming complex datasets into actionable insights. I have completed multiple real-world projects in data analysis and machine learning, honing skills in Python, SQL, Power BI, and data visualization. Currently, I am leading an 8-member team on an innovative Smart Medical Sample Transport System, integrating analytics and automation to optimize healthcare operations.
             </motion.p>
 
             <motion.div
@@ -47,7 +43,7 @@ const About = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Location</p>
-                  <p className="font-medium">Beni Suef, Egypt</p>
+                  <p className="font-medium">Cairo, Egypt</p>
                 </div>
               </div>
 

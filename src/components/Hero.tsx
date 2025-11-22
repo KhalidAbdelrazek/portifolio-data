@@ -5,6 +5,10 @@ import profileImage from "@/assets/profile.jpg";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
+  function scrollToSection(arg0: string) {
+    throw new Error("Function not implemented.");
+  }
+
   return (
     <section
       id="hero"
@@ -77,21 +81,46 @@ const Hero = () => {
             </motion.p>
           </div>
 
-          {/* CTA Buttons */}
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.7, duration: 0.6 }}
-            className="flex flex-wrap gap-4 justify-center"
-          >
-            <Button size="lg" className="hover-glow group" >
-              <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
-              Download CV
-            </Button>
-            <Button variant="outline" size="lg" className="hover-glow">
-              View Projects
-            </Button>
-          </motion.div>
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.7, duration: 0.6 }}
+  className="flex flex-wrap gap-4 justify-center"
+>
+  {/* Download CV */}
+  <Button
+    size="lg"
+    className="hover-glow group"
+    onClick={() => {
+      // Option 1: Open CV link in new tab
+      window.open("https://drive.google.com/file/d/1xTIMbHZeORU_mT_xuEVxSOE8_IPswiq8/view?usp=sharing", "https://drive.google.com/file/d/1xTIMbHZeORU_mT_xuEVxSOE8_IPswiq8/view?usp=sharing");
+
+      // Option 2: Force download
+      // const link = document.createElement('a');
+      // link.href = '/path/to/your-cv.pdf';
+      // link.download = 'Khalid_Abdelrazk_CV.pdf';
+      // link.click();
+    }}
+  >
+    <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
+    Download CV
+  </Button>
+
+  {/* View Projects */}
+  <Button
+    variant="outline"
+    size="lg"
+    className="hover-glow"
+    onClick={() => {
+      // Navigate to your projects section or page
+      window.open("https://github.com/KhalidAbdelrazek?tab=repositories", "https://github.com/KhalidAbdelrazek?tab=repositories");
+      // OR use React Router: navigate("/projects")
+    }}
+  >
+    View Projects
+  </Button>
+</motion.div>
+
 
           {/* Social Links */}
           <motion.div
