@@ -27,8 +27,7 @@ const About = () => {
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ delay: 0.2, duration: 0.6 }}
               className="text-lg text-foreground/90 leading-relaxed"
-            >
-              I am a Data Analyst with over a year of experience transforming complex datasets into actionable insights. I have completed multiple real-world projects in data analysis and machine learning, honing skills in Python, SQL, Power BI, and data visualization. Currently, I am leading an 8-member team on an innovative Smart Medical Sample Transport System, integrating analytics and automation to optimize healthcare operations.
+            >Data Analyst with 1+ year of experience converting complex datasets into strategic insights that drive decision-making. Proven track record in data analysis, machine learning, and data visualization, with strong skills in Python, SQL, and Power BI. Currently spearheading an 8-member team on a cutting-edge Smart Medical Sample Transport System, leveraging analytics and automation to optimize healthcare workflows and improve operational efficiency.
             </motion.p>
 
             <motion.div
@@ -53,7 +52,7 @@ const About = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Phone</p>
-                  <p className="font-medium">01015565612</p>
+                  <p className="font-medium">+201015565612</p>
                 </div>
               </div>
 

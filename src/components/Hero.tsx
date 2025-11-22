@@ -57,7 +57,7 @@ const Hero = () => {
               transition={{ delay: 0.4, duration: 0.6 }}
               className="text-primary text-sm md:text-base tracking-wider uppercase"
             >
-              Senior Data Analytics Engineering Student
+              Senior Electronics & Communication Engineering Student | Aspiring Data Analytics
             </motion.p>
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
