@@ -33,7 +33,7 @@ const Experience = () => {
       role: "Part-Time Flutter Developer",
       description:
         "Developed and maintained cross-platform mobile applications using Flutter and Dart, implementing responsive UIs, state management (BLoC), and REST API integrations. Collaborated with the team to test, debug, and deploy features in production.",
-      period: "Jun 2025 - Aug 2025",
+      period: "Jun 2025 - Nov 2025",
     },
   ];
 
