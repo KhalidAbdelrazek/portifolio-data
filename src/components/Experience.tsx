@@ -64,7 +64,7 @@ const Experience = () => {
                 <div className="flex flex-col md:flex-row md:items-start gap-4">
                   <div className="flex-shrink-0">
                     <div className="p-4 bg-gradient-primary rounded-xl group-hover:animate-pulse">
-                      <Briefcase className="h-6 w-6 text-white" />
+                      <Briefcase className="h-6 w-6 text-red" />
                     </div>
                   </div>
 

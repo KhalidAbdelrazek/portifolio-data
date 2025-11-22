@@ -44,7 +44,7 @@ const Footer = () => {
 
           <div className="text-center md:text-right">
             <p className="text-muted-foreground text-sm">
-              © 2024 Khalid Abdelrazk. All rights reserved.
+              © 2025 Khalid Abdelrazk. All rights reserved.
             </p>
           </div>
         </div>
